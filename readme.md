@@ -9,8 +9,9 @@ I think this tutorial is so clear for recognizing the basics of Django.
 ```
 git clone https://github.com/Hao1995/django-example.git
 cd django-example
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
-djangogirls_venv\Scripts\activate
 cd mysite
 python manage.py runserver
 ```
